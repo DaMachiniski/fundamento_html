@@ -1,0 +1,42 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkmagenta
+}
+body{
+    background-color: rgb(199, 178, 181);
+    padding: 30px
+}
+h3, h2{
+    color: rgb(107, 67, 87)
+}
+.coluna{
+    padding: 5%;
+    width: 40%;
+    float: left;
+}
+#titulo {
+    font-weight: bolder;
+}
+
+.hobbies {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.hobbies li {
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    padding: 7px 10px;
+    margin: 5px;
+    text-align: center;
+}
+.educacao li {
+    padding: 10px 0;
+}
+.enviar {
+    padding: 10px 50px;
+    color: white;
+    background-color:  darkmagenta;
+}

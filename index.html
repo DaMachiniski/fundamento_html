@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meu Portifólio</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!-- Links internos como no exemplo -->
+        <div class="menu">
+            <a href="#sobre-mim">Sobre</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#educacao">Educacao</a>
+            <a href="#contato">Contato</a>
+        </div>
+        <h2 id="titulo">
+            DANIELA STEFANI SCHMITZ MACHINISKI
+        </h2>
+        <div class="coluna">
+            Gênero: Feminino
+            <br>
+        </div>
+        <div class="coluna">
+            Ascendencia: Polonesa
+            <br>
+            Reside em: Dois Vizinhos-PR
+        </div>
+        <p>
+            <h3 id= "sobre-mim">SOBRE MIM </h3>
+            <p> <br>Me considero uma pessoa calorosa com uma
+                mente curiosa e uma paixão pela aprendizagem. Busco
+                constantemente novas experiências e conhecimentos.<br>
+                Profissionalmente, atuo na area da administração. No futuro,
+                espero expandir minha carreira para a area da
+                tecnologia.
+            </p>
+            <h3>HOBBIES</h3>
+            <p>Interesses e Paixões: Uma ávida leitora, entusiasta da música,
+                com interesse em uma variedade de estilos, desde clássico até
+                indie. Nos fins de semana gosto de explorar a natureza, fazendo
+                caminhadas em trilhas, curtindo um cinema ou passando um tempo
+                com a familia.
+            </p>
+            <ul class="hobbies">
+                <li>Leitura</li>
+                <li>Música</li>
+                <li>Exploração da Natureza</li>
+                <li>Culinária</li>
+                <li>Arte e Artesanato</li>
+                <li>Viagens</li>
+                <li>Esportes e Atividades Físicas</li>
+                <li>Fotografia</li>
+            </ul>
+        </p><br>
+        <h3 id="educacao">EDUCAÇÃO</h3>
+        <ol class="educacao">
+            <li>
+                Educação Básica:Colégio Estadual de Dois Vizinhos;
+            </li>
+            <li>
+                Ensino Médio:Técnico em Administração no Colegio EStadual de
+                Dois Vizinhos;
+            </li>
+            <li>
+                Ensino Superior:UNINTER-Análise e Desenvolvimento de
+                Sistemas(CURSANDO)
+            </li>
+
+        </ol>
+        <h3 id="portfolio">PORTFÓLIO</h3>
+        <p>Sem conteudo para acrescentar.</p>
+        <br>
+        <br><h3 id="contato">CONTATO</h3>
+        <form action="#" method="post">
+            <table>
+                <tr>
+                    <th><label for="nome">Nome:</label></th>
+                    <td><input type="text" id="nome" name="nome" required></td>
+                </tr>
+                <tr>
+                    <th><label for="email">Email:</label></th>
+                    <td><input type="email" id="email" name="email"
+                            required></td>
+                </tr>
+                <tr>
+                    <th><label for="telefone">Telefone:</label></th>
+                    <td><input type="text" id="telefone" name="telefone"></td>
+                </tr>
+                <tr>
+                    <th><label for="mensagem">Mensagem:</label></th>
+                    <td><textarea id="mensagem" name="mensagem" rows="4"
+                            required></textarea></td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td colspan="2">
+                        <input class="enviar" type="submit" value="Enviar">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
